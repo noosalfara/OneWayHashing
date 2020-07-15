@@ -7363,12 +7363,12 @@ public class Metaphone3 {
         //m3.SetEncodeVowels(true);
         //m3.SetEncodeExact(true);
 
-        m3.SetWord("Smith");
+        m3.SetWord("rupert");
 
         m3.Encode();
 
         System.out.println("iron : " + m3.GetMetaph());
-//        System.out.println("iron : (alt) " + m3.GetAlternateMetaph());
+        System.out.println("iron : (alt) " + m3.GetAlternateMetaph());
 //
 //        m3.SetWord("witz");
 //
@@ -7453,8 +7453,8 @@ public class Metaphone3 {
 //        m3.Encode();
 //        System.out.println(test + " : " + m3.GetMetaph());
 //        System.out.println(test + " : (alt) " + m3.GetAlternateMetaph());
-        MetaphoneDriver d1 = new MetaphoneDriver();
-        d1.setup("Smyth");
+//        MetaphoneDriver d1 = new MetaphoneDriver();
+//        d1.setup("Smyth");
 
     }
 }
